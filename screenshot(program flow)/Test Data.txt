@@ -1,0 +1,48 @@
+Test Data:
+---Credit Card Can Only Make Expense Transaction...
+---Need to Adjust The Date for Transaction to check the view log purpose...
+---Need to Check View after to check whether this transaction has been completed or not...
+---If does not check view after the transaction, the transaction will still under pending ( which will affect the reporting and view activity log)...
+---Only can Adjust the transaction which is pending...
+---If the card is expired ( current time > expired date), the system will not suggest that particular card for transaction...
+1)Debit Card
+
+1234 5678 9012 3456
+Andrew Yii
+Maybank
+31/12/2027
+Debit
+5000
+2000
+
+1111 2222 3333 4444
+Sarah Wong
+Hong Leong Bank
+28/02/2027
+Debit
+7800
+3000
+
+
+2)Credit Card
+
+4321 8765 2109 6543
+Emily Tan
+Public Bank
+15/06/2026
+Credit
+20000
+15
+500
+
+5678 1234 8765 4321
+Jason Lim
+CIMB Bank
+09/11/2029
+Credit
+15000
+12
+450
+
+
+
